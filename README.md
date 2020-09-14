@@ -5,3 +5,5 @@ The counter is displayed on a 7-Segment display using multiplexing which altertn
 
 ## Demo:
 [![Alt text](https://img.youtube.com/vi/IS8DuGHC5sQ/0.jpg)](https://www.youtube.com/watch?v=IS8DuGHC5sQ)
+
+Project is developed on ISE 14.7
