@@ -1,0 +1,15 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CTL[0]" LOC = P124;
+NET "CTL[2]" LOC = P120;
+NET "CTL[1]" LOC = P121;
+NET "DATA[0]" LOC = P117;
+NET "DATA[1]" LOC = P116;
+NET "DATA[2]" LOC = P115;
+NET "DATA[3]" LOC = P113;
+NET "DATA[4]" LOC = P112;
+NET "DATA[5]" LOC = P111;
+NET "DATA[7]" LOC = P114;
+NET "DATA[6]" LOC = P110;
+NET "clk" LOC = P129;

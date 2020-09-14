@@ -1,0 +1,467 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+Reading design: DisplayNumber.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DisplayNumber.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DisplayNumber"
+Output Format                      : NGC
+Target Device                      : xc3s50a-4-tq144
+
+---- Source Options
+Top Module Name                    : DisplayNumber
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "DisplayNumber.v" in library work
+Module <DisplayNumber> compiled
+Module <num_to_digit> compiled
+Module <mux3_1> compiled
+Module <small_decoder> compiled
+No errors in compilation
+Analysis of file <"DisplayNumber.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <DisplayNumber> in library <work>.
+
+Analyzing hierarchy for module <mux3_1> in library <work>.
+
+Analyzing hierarchy for module <num_to_digit> in library <work>.
+
+Analyzing hierarchy for module <small_decoder> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <DisplayNumber>.
+Module <DisplayNumber> is correct for synthesis.
+ 
+Analyzing module <mux3_1> in library <work>.
+Module <mux3_1> is correct for synthesis.
+ 
+Analyzing module <num_to_digit> in library <work>.
+Module <num_to_digit> is correct for synthesis.
+ 
+Analyzing module <small_decoder> in library <work>.
+Module <small_decoder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <increment> in unit <DisplayNumber> has a constant value of 1 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <mux3_1>.
+    Related source file is "DisplayNumber.v".
+    Found 4-bit 4-to-1 multiplexer for signal <out>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <mux3_1> synthesized.
+
+
+Synthesizing Unit <num_to_digit>.
+    Related source file is "DisplayNumber.v".
+    Found 16x8-bit ROM for signal <digit$mux0000> created at line 152.
+    Found 8-bit register for signal <digit>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <num_to_digit> synthesized.
+
+
+Synthesizing Unit <small_decoder>.
+    Related source file is "DisplayNumber.v".
+    Found 4x3-bit ROM for signal <c>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <small_decoder> synthesized.
+
+
+Synthesizing Unit <DisplayNumber>.
+    Related source file is "DisplayNumber.v".
+    Found 2-bit adder for signal <$add0000> created at line 111.
+    Found 24-bit up counter for signal <counter>.
+    Found 24-bit comparator greatequal for signal <counter$cmp_ge0000> created at line 61.
+    Found 24-bit up counter for signal <counter_s>.
+    Found 4-bit up counter for signal <digit_one>.
+    Found 4-bit up counter for signal <digit_three>.
+    Found 4-bit up counter for signal <digit_two>.
+    Found 10-bit up counter for signal <number>.
+    Found 1-bit register for signal <reset>.
+    Found 10-bit comparator greater for signal <reset$cmp_gt0000> created at line 113.
+    Found 10-bit comparator lessequal for signal <reset$cmp_le0000> created at line 113.
+    Found 24-bit comparator less for signal <reset$cmp_lt0000> created at line 61.
+    Found 2-bit register for signal <sel>.
+    Found 10-bit comparator greater for signal <sel_0$cmp_gt0000> created at line 105.
+    Found 10-bit comparator lessequal for signal <sel_0$cmp_le0000> created at line 105.
+    Found 10-bit comparator less for signal <sel_0$cmp_lt0000> created at line 105.
+    Found 2-bit comparator greatequal for signal <sel_1$cmp_ge0000> created at line 111.
+    Found 10-bit comparator greater for signal <sel_1$cmp_gt0000> created at line 109.
+    Found 10-bit comparator lessequal for signal <sel_1$cmp_le0000> created at line 109.
+    Summary:
+	inferred   6 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+Unit <DisplayNumber> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x8-bit ROM                                          : 1
+ 4x3-bit ROM                                           : 1
+# Adders/Subtractors                                   : 1
+ 2-bit adder                                           : 1
+# Counters                                             : 6
+ 10-bit up counter                                     : 1
+ 24-bit up counter                                     : 2
+ 4-bit up counter                                      : 3
+# Registers                                            : 4
+ 1-bit register                                        : 3
+ 8-bit register                                        : 1
+# Comparators                                          : 10
+ 10-bit comparator greater                             : 3
+ 10-bit comparator less                                : 1
+ 10-bit comparator lessequal                           : 3
+ 2-bit comparator greatequal                           : 1
+ 24-bit comparator greatequal                          : 1
+ 24-bit comparator less                                : 1
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <num_to_digit>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_digit_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <num_to_digit> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x8-bit ROM                                          : 1
+ 4x3-bit ROM                                           : 1
+# Adders/Subtractors                                   : 1
+ 2-bit adder                                           : 1
+# Counters                                             : 6
+ 10-bit up counter                                     : 1
+ 24-bit up counter                                     : 2
+ 4-bit up counter                                      : 3
+# Registers                                            : 11
+ Flip-Flops                                            : 11
+# Comparators                                          : 10
+ 10-bit comparator greater                             : 3
+ 10-bit comparator less                                : 1
+ 10-bit comparator lessequal                           : 3
+ 2-bit comparator greatequal                           : 1
+ 24-bit comparator greatequal                          : 1
+ 24-bit comparator less                                : 1
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <digit_7> (without init value) has a constant value of 0 in block <num_to_digit>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <DisplayNumber> ...
+
+Optimizing unit <num_to_digit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DisplayNumber, actual ratio is 10.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 80
+ Flip-Flops                                            : 80
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DisplayNumber.ngr
+Top Level Output File Name         : DisplayNumber
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 277
+#      GND                         : 1
+#      INV                         : 15
+#      LUT1                        : 58
+#      LUT2                        : 8
+#      LUT2_D                      : 3
+#      LUT2_L                      : 3
+#      LUT3                        : 15
+#      LUT3_L                      : 1
+#      LUT4                        : 35
+#      LUT4_D                      : 2
+#      LUT4_L                      : 4
+#      MUXCY                       : 69
+#      MUXF5                       : 4
+#      VCC                         : 1
+#      XORCY                       : 58
+# FlipFlops/Latches                : 80
+#      FD                          : 6
+#      FDE                         : 3
+#      FDR                         : 49
+#      FDRE                        : 22
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-4 
+
+ Number of Slices:                       69  out of    704     9%  
+ Number of Slice Flip Flops:             80  out of   1408     5%  
+ Number of 4 input LUTs:                144  out of   1408    10%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    108    11%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 80    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.733ns (Maximum Frequency: 148.523MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.305ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.733ns (frequency: 148.523MHz)
+  Total number of paths / destination ports: 3115 / 176
+-------------------------------------------------------------------------
+Delay:               6.733ns (Levels of Logic = 10)
+  Source:            counter_6 (FF)
+  Destination:       number_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: counter_6 to number_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.590  counter_6 (counter_6)
+     LUT1:I0->O            1   0.648   0.000  Mcompar_counter_cmp_ge0000_cy<0>_rt (Mcompar_counter_cmp_ge0000_cy<0>_rt)
+     MUXCY:S->O            1   0.632   0.000  Mcompar_counter_cmp_ge0000_cy<0> (Mcompar_counter_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_counter_cmp_ge0000_cy<1> (Mcompar_counter_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_counter_cmp_ge0000_cy<2> (Mcompar_counter_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_counter_cmp_ge0000_cy<3> (Mcompar_counter_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_counter_cmp_ge0000_cy<4> (Mcompar_counter_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_counter_cmp_ge0000_cy<5> (Mcompar_counter_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_counter_cmp_ge0000_cy<6> (Mcompar_counter_cmp_ge0000_cy<6>)
+     MUXCY:CI->O          47   0.141   1.347  Mcompar_counter_cmp_ge0000_cy<7> (counter_cmp_ge0000)
+     LUT2:I1->O           10   0.643   0.882  number_and00001 (number_and0000)
+     FDRE:R                    0.869          number_0
+    ----------------------------------------
+    Total                      6.733ns (3.914ns logic, 2.819ns route)
+                                       (58.1% logic, 41.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 12 / 10
+-------------------------------------------------------------------------
+Offset:              7.305ns (Levels of Logic = 2)
+  Source:            sel_0 (FF)
+  Destination:       CTL<1> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sel_0 to CTL<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             13   0.591   1.126  sel_0 (sel_0)
+     LUT2:I0->O            1   0.648   0.420  CTL<1>1 (CTL_1_OBUF)
+     OBUF:I->O                 4.520          CTL_1_OBUF (CTL<1>)
+    ----------------------------------------
+    Total                      7.305ns (5.759ns logic, 1.546ns route)
+                                       (78.8% logic, 21.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.88 secs
+ 
+--> 
+
+
+Total memory usage is 515116 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

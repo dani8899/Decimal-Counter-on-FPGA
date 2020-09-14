@@ -1,0 +1,363 @@
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+vhdtdtfi -lib work /home/daniel/Xilinx/SEG7_Display/DisplayNumber.v -lang verilog -prj SEG7_Display -o DisplayNumber.spl -module DisplayNumber -template /home/daniel/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a DisplayNumber.spl /home/daniel/Xilinx/SEG7_Display/DisplayNumber.sym 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+xst -intstyle ise -ifn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.xst" -ofn "/home/daniel/Xilinx/Projects/SEG7_Display/DisplayNumber.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DisplayNumber.ucf -p xc3s50a-tq144-4 DisplayNumber.ngc DisplayNumber.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o DisplayNumber_map.ncd DisplayNumber.ngd DisplayNumber.pcf 
+par -w -intstyle ise -ol high -t 1 DisplayNumber_map.ncd DisplayNumber.ncd DisplayNumber.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DisplayNumber.twx DisplayNumber.ncd -o DisplayNumber.twr DisplayNumber.pcf -ucf DisplayNumber.ucf 
+bitgen -intstyle ise -f DisplayNumber.ut DisplayNumber.ncd 

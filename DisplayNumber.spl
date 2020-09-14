@@ -1,0 +1,9 @@
+[Inputs]
+clk
+[Outputs]
+=DATA[7:0]=
+=CTL[2:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel DisplayNumber
+
